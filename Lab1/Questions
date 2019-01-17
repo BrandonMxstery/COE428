@@ -1,0 +1,36 @@
+ I would use a selection sort knowing the last and first index and set them to the first and last place.
+Knowing that i would add 1 to my increasing interval and subtract 1 from the end goal in my for loops.
+
+Before:
+	int i;
+	int j;
+	int min;
+	int swap;
+	for(i=0; i < n-1; i++){
+		min = i;
+		for (j=i+1; j<n;j++){
+			if (d[j] < d[min]){
+				min = j;
+			}
+}
+
+After:
+	int i;
+	int j;
+	int min;
+	int swap;
+	for(i=1; i < n-2; i++){
+		min = i;
+		for (j=i+2; j<n-1;j++){
+			if (d[j] < d[min]){
+				min = j;
+			}
+}
+In the main function:
+	data[first index] = #
+	data[last index] = #
+    /* Print sorted array to stdout */ 
+    for(i = 0; i < nDataItems; i++) { 
+        printf("%d\n", data[i]); 
+
+With this improvement it means that there are less numbers needed to sort so less time will be wasted comparing
