@@ -1,0 +1,28 @@
+Brandon Hoang
+500825665
+
+1.How will the first recursive call to towers() be invoked? Answer this question in the form: 
+towers(x, y, z) where you give the actual values to the three parameters.  
+
+The first recursive call to towers() that will be invoked is towers(0,2,1)
+0 = number of disks
+2 = from point
+1 = to destination
+
+2.How many recursive calls to towers() will be made before this first recursive call actually returns to the initial invocation?  
+
+5 recursive calls to to towers() will be made before this first recursive call actually returns to the initial invocation.
+
+3.Once towers(5, 2, 3) has invoked its first recursive call to towers() and this invocation has returned, what will be printed to stdout? 
+
+The invocation is returned at Move #5 where the disc is moved from tower 2 to tower 3
+
+4.How will the second recursive call to towers() be invoked?
+
+The Second recursive call is towers(0, 3, 2)
+0 = number of disks
+3 = from point
+2 = to destination
+
+Question:Suppose that towers(8, 1, 2) is invoked. How many lines will be printed to stdout?  
+255 lines will be printed
