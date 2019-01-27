@@ -5,6 +5,7 @@
 
 int main(int argc, char **argv)
 {
+  if (argv[1] => 0 and argv[2] => 0 and argv[3] =>0){
     int n = 3;
     int from = 1;
     int dest = 2;
@@ -27,6 +28,7 @@ int main(int argc, char **argv)
     else{
     	fprintf(stderr,"Wrong Input");
     	exit(1);
+}
 }
 }
 
